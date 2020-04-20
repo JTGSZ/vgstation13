@@ -159,7 +159,7 @@
 	if(ispath(DR.role_category,/datum/role/blob_overmind))
 		return FALSE
 	if(ispath(DR.role_category,/datum/role/changeling))
-		return FALSE
+		return TRUE
 
 	return TRUE
 
